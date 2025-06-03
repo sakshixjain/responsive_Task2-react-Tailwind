@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@media (max-width: 1900px) {
+    .bar{
+        display: none;
+    }
+}
+@media (max-width: 1100px) {
+    .bar{
+        display: none;
+    }
+}
+
+@media (max-width:750px) {
+     .bar{
+          display: block;
+          color: darkgray;
+          align-items: end;
+          justify-content: end;
+     }
+       .logo{
+        padding-left: 0;
+       }
+    .header-nbr{
+        display: none;
+    }
+    .header-heading{
+        display: none;
+    }
+
+    .border-rad{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .award img{
+        height: 80px; 
+    }
+    .icon{
+        display: none;
+    }
+    .flag-div{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        flex-wrap: none;
+    }
+    .flag{
+        justify-content: center;
+        text-align: center;
+        flex-wrap:none;
+        padding-right: 90px;
+    }
+    .flag-icon{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+      
+    }
+    .foot{
+         
+        display: inline;
+    }
+    .foot img{
+        display: inline;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .foot-section{
+        font-size: 20px;
+        text-wrap:none;
+        margin: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img-foot{
+        margin-top: 40px;
+        
+        font-size: 20px;
+        padding-left: 90px;
+        
+        
+display: inline;
+justify-content: center;
+text-align: center;
+    }
+    .foot-copy{
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .foot-end{
+        margin: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+
+.ul li {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #00B9F1;
+    transition: width 0.3s ease;
+  }
+  
+  .ul li:hover {
+    color: #00B9F1;
+  }
+  
+  .ul li:hover::after {
+    width: 50%;
+  }
+  
+  @layer base{
+    body {
+      background-color: #f3f4f7;
+    }
+  }
+  
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color:orange !important;
+  }

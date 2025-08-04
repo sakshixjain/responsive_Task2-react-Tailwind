@@ -232,7 +232,7 @@ const [activeTech, setActiveTech] = useState("Frontend");
       <div className="header-nbr flex flex-wrap justify-between items-center px-24 py-2 border-b border-blue-900">
         <div className=" flex gap-4 flex-wrap">
           <span className="flex items-center ml-5 gap-1 hover:text-blue-400">
-            <img src="public/flag.png" alt="" className='h-4 w-6 ' /> <strong className='text-white'>Sales:</strong> +91 997-139-2828
+            <img src="flag.png" alt="" className='h-4 w-6 ' /> <strong className='text-white'>Sales:</strong> +91 997-139-2828
           </span>
           <span className="flex items-center ml-5 gap-1 hover:text-blue-400">
           <img src="flag.png" alt="" className='h-4 w-6' />  <strong className='text-white' >Support:</strong> +91 997-188-8346
@@ -255,7 +255,7 @@ const [activeTech, setActiveTech] = useState("Frontend");
       <nav className=" logo flex justify-between ml-5 items-center px-24 py-3 bg-[#031136]">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-400">
-          <span className="italic"><img src="public\logo.png" alt="" /></span>
+          <span className="italic"><img src="logo.png" alt="" /></span>
         </div>
 
         {/* Navigation Links */}
@@ -393,16 +393,16 @@ const [activeTech, setActiveTech] = useState("Frontend");
       <div className="mt-20 m-16">
       <Slider {...settings}>
         <div>
-          <img src="src\assets\s1.webp" className='w-full rounded-4xl' alt="" />
+          <img src="s1.webp" className='w-full rounded-4xl' alt="" />
         </div>
         <div>
-          <img src="src\assets\s2.webp" className='w-full rounded-4xl'  alt="" />
+          <img src="s2.webp" className='w-full rounded-4xl'  alt="" />
         </div>
         <div>
-          <img src="src\assets\s3.png" className='w-full rounded-4xl'  alt="" />
+          <img src="s3.png" className='w-full rounded-4xl'  alt="" />
         </div>
         <div>
-          <img src="src\assets\s4.webp" className='w-full rounded-4xl'  alt="" />
+          <img src="s4.webp" className='w-full rounded-4xl'  alt="" />
         </div>
       </Slider>
       </div>

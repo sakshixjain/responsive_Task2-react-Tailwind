@@ -393,16 +393,16 @@ const [activeTech, setActiveTech] = useState("Frontend");
       <div className="mt-20 m-16">
       <Slider {...settings}>
         <div>
-          <img src="s1.webp" className='w-full rounded-4xl' alt="" />
+          <img src="assets/s1.webp" className='w-full rounded-4xl' alt="" />
         </div>
         <div>
-          <img src="s2.webp" className='w-full rounded-4xl'  alt="" />
+          <img src="assets/s2.webp" className='w-full rounded-4xl'  alt="" />
         </div>
         <div>
-          <img src="s3.png" className='w-full rounded-4xl'  alt="" />
+          <img src="assets/s3.png" className='w-full rounded-4xl'  alt="" />
         </div>
         <div>
-          <img src="s4.webp" className='w-full rounded-4xl'  alt="" />
+          <img src="assets/s4.webp" className='w-full rounded-4xl'  alt="" />
         </div>
       </Slider>
       </div>
@@ -508,7 +508,7 @@ const [activeTech, setActiveTech] = useState("Frontend");
 
       <div className="foot border-t border-[#444] text-end py-4 px-4 text-xs flex-col md:flex-row justify-end items-end gap-2">
         <div className="img-foot flex justify-between m-7">
-          <img src="public/logo.png" alt="" className="px-16" />
+          <img src="logo.png" alt="" className="px-16" />
           <div className="foot-section flex flex-wrap gap-4 justify-end md:justify-start text-[#B8B9DA] text-xl">
             <a href="#">Privacy Policy |</a>
             <a href="#">Terms & Conditions |</a>
@@ -521,8 +521,8 @@ const [activeTech, setActiveTech] = useState("Frontend");
           Copyright © 2013-2024 Xpecto<sup>®</sup> IT Solutions Pvt Ltd. All rights reserved
         </div>
         <div className="foot-end flex justify-end items-end">
-          <img src="public/d2.png" alt="" />
-          <img src="public/d3.png" alt="" />
+          <img src="d2.png" alt="" />
+          <img src="d3.png" alt="" />
         </div>
       </div>
     </footer>

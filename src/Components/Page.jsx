@@ -235,10 +235,10 @@ const [activeTech, setActiveTech] = useState("Frontend");
             <img src="public/flag.png" alt="" className='h-4 w-6 ' /> <strong className='text-white'>Sales:</strong> +91 997-139-2828
           </span>
           <span className="flex items-center ml-5 gap-1 hover:text-blue-400">
-          <img src="public/flag.png" alt="" className='h-4 w-6' />  <strong className='text-white' >Support:</strong> +91 997-188-8346
+          <img src="flag.png" alt="" className='h-4 w-6' />  <strong className='text-white' >Support:</strong> +91 997-188-8346
           </span>
           <span className="flex items-center ml-5 gap-1 hover:text-blue-400">
-          <img src="public/flag.png" alt="" className='h-4 w-6' />  +52-984-278-8753
+          <img src="flag.png" alt="" className='h-4 w-6' />  +52-984-278-8753
           </span>
         </div>
         <div className="flex items-center gap-4">

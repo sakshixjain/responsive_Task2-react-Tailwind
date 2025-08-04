@@ -469,10 +469,10 @@ const [activeTech, setActiveTech] = useState("Frontend");
 
       <div className="award flex justify-between">
         <div className="border-rad flex flex-wrap w-[650px] gap-8 bg-white rounded-r-full py-6 px-4">
-          <img src="public/f1.webp" alt="DUNS" className="h-24" />
-          <img src="public/f2.png" alt="Clutch" className="h-24" />
-          <img src="public/f3.png" alt="Top Software" className="h-24" />
-          <img src="public/f4.svg" alt="Custom Development" className="h-24" />
+          <img src="f1.webp" alt="DUNS" className="h-24" />
+          <img src="f2.png" alt="Clutch" className="h-24" />
+          <img src="f3.png" alt="Top Software" className="h-24" />
+          <img src="f4.svg" alt="Custom Development" className="h-24" />
         </div>
 
         <div className="icon flex-col md:flex-row text-lg justify-around -mt-6 items-center px-4 md:px-20 py-3 gap-6">

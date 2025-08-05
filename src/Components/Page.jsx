@@ -393,16 +393,16 @@ const [activeTech, setActiveTech] = useState("Frontend");
       <div className="mt-20 m-16">
       <Slider {...settings}>
         <div>
-          <img src="assets/s1.webp" className='w-full rounded-4xl' alt="" />
+          <img src="s1.webp" className='w-full rounded-4xl' alt="" />
         </div>
         <div>
-          <img src="assets/s2.webp" className='w-full rounded-4xl'  alt="" />
+          <img src="s2.webp" className='w-full rounded-4xl'  alt="" />
         </div>
         <div>
-          <img src="assets/s3.png" className='w-full rounded-4xl'  alt="" />
+          <img src="s3.png" className='w-full rounded-4xl'  alt="" />
         </div>
         <div>
-          <img src="assets/s4.webp" className='w-full rounded-4xl'  alt="" />
+          <img src="s4.webp" className='w-full rounded-4xl'  alt="" />
         </div>
       </Slider>
       </div>
